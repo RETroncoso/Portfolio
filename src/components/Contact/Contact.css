@@ -1,0 +1,97 @@
+.contactWrapper {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+span {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+span.error{
+    color: rgb(212, 8, 8);
+}
+
+span.success{
+    color: rgb(130, 216, 0);
+}
+
+h3 {
+    text-align: center;
+    font-size: 6rem;
+    color: #75b3bd;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+  }
+
+  p {
+    color: #ceefd9;
+    font-size: 2rem;
+  }
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 60rem;
+}
+
+form label{
+    color: #ceefd9;
+    font-size: 1.75rem;
+    margin: 2rem;
+}
+
+form input {
+    background-color: transparent;
+    border-bottom: 0.1rem solid #699097;
+    color: aliceblue;
+    font-size: 1.6rem;
+    margin-left: 2rem;
+    padding-left: 1rem;
+    width: 100%;
+}
+
+form textarea {
+    background-color: transparent;
+    border: 0.1rem solid #699097;
+    color: aliceblue;
+    font-size: 1.6rem;
+    margin-left: 2rem;
+    padding: 1rem;
+    height: 10rem;
+    width: 100%;
+}
+
+#sndBtn {
+        margin-top: 2rem;
+        display: inline-block;
+        padding: 1rem 3.5rem;
+        border-radius: 0.5rem;
+        font-size: 1.7rem;
+        cursor: pointer;
+        background: none;
+        color: #75b3bd;
+        box-shadow: 0.4rem 0.4rem 1rem #4e6b70, -0.4rem -0.4rem 1rem #699097;
+        width: 25rem;
+      
+}
+
+#sndBtn:hover {
+        box-shadow: 0.4rem 0.4rem 1rem #4e6b70 inset,
+          -0.4rem -0.4rem 1rem #699097 inset;
+        color: #ceefd9;
+      }
+
+@media (max-width: 450px) {
+        form {
+            width: 35rem;
+        }
+    }
