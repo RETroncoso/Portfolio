@@ -4,9 +4,7 @@ import { SobreMiWrapper } from "./SobreMiElements";
 const SobreMi = () => {
   return (
     <SobreMiWrapper id="sobremi">
-      <h1>
-        <span>Sobre</span> mi
-      </h1>
+      <h1>Sobre mi</h1>
       <div
         style={{
           display: "flex",

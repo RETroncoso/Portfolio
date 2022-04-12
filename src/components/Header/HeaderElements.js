@@ -2,12 +2,11 @@ import styled from "styled-components";
 
 export const HeaderWrapper = styled.header`
   position: fixed;
-  background-color: #203336;
+  background-color: #0e1214;
   top: 0;
   left: ${(props) => (props.show ? "0" : "-110%")};
   z-index: 999;
   width: 30rem;
-  border-right: 0.1rem solid #699097;
   height: 100%;
   padding: 2rem;
   text-align: center;
@@ -26,7 +25,7 @@ export const User = styled.div`
     border-radius: 50%;
     height: 18rem;
     width: 18rem;
-    box-shadow: 0.4rem 0.4rem 1rem #4e6b70, -0.4rem -0.4rem 1rem #699097;
+    box-shadow: rgb(6 6 6) 0.4rem 0.4rem 1rem;
     @media (max-width: 1600px) {
       height: 14rem;
       width: 14rem;
@@ -34,11 +33,11 @@ export const User = styled.div`
   }
   h3 {
     font-size: 2.25rem;
-    color: #75b3bd;
+    color: #ffffff;
   }
   p {
     font-size: 1.5rem;
-    color: #ceefd9;
+    color: #ffffff;
   }
 `;
 
@@ -48,14 +47,13 @@ export const Navbar = styled.nav`
     display: block;
     margin: 2rem 0;
     padding: 0.7rem;
-    color: #75b3bd;
+    color: #ffffff;
     border-right: 5rem;
     border-radius: 5rem;
     font-size: 2rem;
-    box-shadow: 0.4rem 0.4rem 1rem #4e6b70, -0.4rem -0.4rem 1rem #699097;
+    box-shadow: rgb(6 6 6) 0.4rem 0.4rem 1rem;
   }
   a:hover {
-    box-shadow: inset 0.4rem 0.4rem 1rem #4e6b70,
-      inset -0.4rem -0.4rem 1rem #699097;
+    box-shadow: rgb(6 6 6) 0.4rem 0.4rem 1rem inset;
   }
 `;

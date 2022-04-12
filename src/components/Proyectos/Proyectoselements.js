@@ -7,7 +7,7 @@ export const ProyetosWrapper = styled.section`
   h1 {
     text-align: center;
     font-size: 6rem;
-    color: #75b3bd;
+    color: #ffffff;
     text-transform: uppercase;
     padding-bottom: 2rem;
     @media (max-width: 1600px) {
@@ -29,7 +29,7 @@ export const ProyectoCard = styled.div`
   width: 45rem;
   height: 22.5rem;
   border-radius: 0.5rem;
-  box-shadow: 0.4rem 0.4rem 1rem #4e6b70, -0.4rem -0.4rem 1rem #699097;
+  box-shadow: rgb(6 6 6) 0.4rem 0.4rem 1rem;
   position: relative;
   z-index: 0;
   overflow: hidden;
@@ -63,7 +63,7 @@ export const TextContainer = styled.div`
   width: 100%;
   height: 100%;
   p {
-    color: #ceefd9;
+    color: #ffffff;
     margin-top: 1rem;
     font-size: 1.7rem;
     @media (max-width: 1600px) {
@@ -76,25 +76,25 @@ export const Links = styled.div`
   display: flex;
   width: 100%;
   justify-content: space-around;
-  color: #75b3bd;
+  color: #016fb9;
   font-size: 3.5rem;
   @media (max-width: 1600px) {
     font-size: 3rem;
   }
   :hover {
     a {
-      color: #ceefd9;
+      color: #ffffff;
     }
     p {
-      color: #75b3bd;
+      color: #ffffff;
     }
   }
   a {
     text-align: center;
-    color: #75b3bd;
+    color: #016fb9;
   }
   p {
-    color: #ceefd9;
+    color: #016fb9;
     font-size: 2.5rem;
     @media (max-width: 1600px) {
       font-size: 2rem;

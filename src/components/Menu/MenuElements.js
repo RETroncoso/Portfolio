@@ -12,13 +12,12 @@ export const MenuBtn = styled.div`
   border-radius: 50%;
   font-size: 2.5rem;
   cursor: pointer;
-  box-shadow: 0.4rem 0.4rem 1rem #4e6b70, -0.4rem -0.4rem 1rem #699097;
+  box-shadow: rgb(6 6 6) 0.4rem 0.4rem 1rem;
   text-align: center;
-  color: #75b3bd;
+  color: #ffffff;
   :hover {
-    color: #ceefd9;
-    box-shadow: 0.4rem 0.4rem 1rem #4e6b70 inset,
-      -0.4rem -0.4rem 1rem #699097 inset;
+    color: #ffffff;
+    box-shadow: rgb(6 6 6) 0.4rem 0.4rem 1rem inset;
   }
   @media (max-width: 450px) {
     display: initial;

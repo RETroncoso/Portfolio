@@ -7,13 +7,13 @@ export const MisHerramientasContainer = styled.section`
   h1 {
     text-align: center;
     font-size: 5rem;
-    color: #75b3bd;
+    color: #ffffff;
     text-transform: uppercase;
     padding-bottom: 2rem;
   }
 
   span {
-    color: #ceefd9;
+    color: #016fb9;
     font-size: 5rem;
   }
 `;
@@ -32,7 +32,7 @@ export const Card = styled.div`
   width: 25rem;
   height: 29rem;
   border-radius: 0.5rem;
-  box-shadow: 0.4rem 0.4rem 1rem #4e6b70, -0.4rem -0.4rem 1rem #699097;
+  box-shadow: rgb(6 6 6) 0.4rem 0.4rem 1rem;
   position: relative;
   z-index: 0;
   overflow: hidden;
@@ -56,6 +56,7 @@ export const Card = styled.div`
     }
   }
   p {
+    color: #ffffff;
     text-align: center;
     margin-top: 1rem;
     font-weight: 600;
@@ -65,12 +66,11 @@ export const Card = styled.div`
     }
   }
   :hover {
-    box-shadow: 0.4rem 0.4rem 1rem #4e6b70 inset,
-      -0.4rem -0.4rem 1rem #699097 inset;
+    box-shadow: rgb(6 6 6) 0.4rem 0.4rem 1rem inset;
     span,
     p {
       transition: 0.3s;
-      color: #75b3bd;
+      color: #016fb9;
     }
   }
 `;

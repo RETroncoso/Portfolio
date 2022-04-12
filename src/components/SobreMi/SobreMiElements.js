@@ -7,7 +7,7 @@ export const SobreMiWrapper = styled.section`
   h1 {
     text-align: center;
     font-size: 6rem;
-    color: #75b3bd;
+    color: #ffffff;
     text-transform: uppercase;
     padding-bottom: 2rem;
     span {
@@ -28,7 +28,7 @@ export const SobreMiWrapper = styled.section`
   }
   h3 {
     font-size: 4.5rem;
-    color: #75b3bd;
+    color: #ffffff;
     line-height: 1.8;
     @media (max-width: 1600px) {
       font-size: 3.5rem;
@@ -38,7 +38,7 @@ export const SobreMiWrapper = styled.section`
     }
   }
   h3 span {
-    color: #ceefd9;
+    color: #016fb9;
   }
 
   a {
@@ -50,20 +50,18 @@ export const SobreMiWrapper = styled.section`
     font-size: 2rem;
     cursor: pointer;
     background: none;
-    color: #75b3bd;
-    box-shadow: 0.4rem 0.4rem 1rem #4e6b70, -0.4rem -0.4rem 1rem #699097;
+    color: #016fb9;
+    box-shadow: rgb(6 6 6) 0.4rem 0.4rem 1rem;
   }
 
   a:hover {
-    box-shadow: 0.4rem 0.4rem 1rem #4e6b70 inset,
-      -0.4rem -0.4rem 1rem #699097 inset;
-    color: #ceefd9;
+    box-shadow: rgb(6 6 6) 0.4rem 0.4rem 1rem inset;
   }
   p {
     font-size: 2.5rem;
-    color: #ceefd9;
+    color: #ffffff;
     line-height: 1.8;
-    padding: 1rem 0;
+    padding: 1rem 4rem;
     @media (max-width: 1600px) {
       font-size: 1.7rem;
     }

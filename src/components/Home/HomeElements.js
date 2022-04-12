@@ -11,13 +11,13 @@ export const HomeWrapper = styled.section`
 export const HomeContent = styled.div`
   h3 {
     font-size: 7rem;
-    color: #75b3bd;
+    color: #ffffff;
     line-height: 1.1;
     text-transform: uppercase;
   }
   p {
     font-size: 2rem;
-    color: #ceefd9;
+    color: #ffffff;
     padding-bottom: 0.5rem;
   }
   a {
@@ -28,13 +28,11 @@ export const HomeContent = styled.div`
     font-size: 1.7rem;
     cursor: pointer;
     background: none;
-    color: #75b3bd;
-    box-shadow: 0.4rem 0.4rem 1rem #4e6b70, -0.4rem -0.4rem 1rem #699097;
+    color: #ffffff;
+    box-shadow: rgb(6 6 6) 0.4rem 0.4rem 1rem;
   }
   a:hover {
-    box-shadow: 0.4rem 0.4rem 1rem #4e6b70 inset,
-      -0.4rem -0.4rem 1rem #699097 inset;
-    color: #ceefd9;
+    box-shadow: rgb(6 6 6) 0.4rem 0.4rem 1rem inset;
   }
 `;
 
@@ -44,19 +42,17 @@ export const HomeRedes = styled.div`
   position: relative;
   top: 8rem;
   border-radius: 0.5rem;
-  box-shadow: 0.4rem 0.4rem 1rem #4e6b70, -0.4rem -0.4rem 1rem #699097;
+  box-shadow: rgb(6 6 6) 0.4rem 0.4rem 1rem;
   padding: 1rem;
   a {
     margin: 0.5rem;
     padding-top: 0.8rem;
     font-size: 2rem;
-    color: #75b3bd;
+    color: #016fb9;
     border-radius: 0.5rem;
     margin: auto 1rem;
   }
   a:hover {
-    color: #ceefd9;
-    box-shadow: 0.4rem 0.4rem 1rem #4e6b70 inline,
-      -0.4rem -0.4rem 1rem #699097 inline;
+    box-shadow: rgb(6 6 6) 0.4rem 0.4rem 1rem inline;
   }
 `;
