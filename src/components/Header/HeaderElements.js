@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HeaderWrapper = styled.header`
   position: fixed;
-  background-color: #0e1214;
+  background-color: #14191c;
   top: 0;
   left: ${(props) => (props.show ? "0" : "-110%")};
   z-index: 999;
