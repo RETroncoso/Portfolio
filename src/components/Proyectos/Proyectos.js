@@ -103,7 +103,7 @@ const Proyectos = () => {
           <img src={gamesReact} />
           <TextContainer>
             <p>
-              - E-commerce responsive.
+              - E-commerce. Trabajando en responsive.
               <br />
               -REACT + STYLED COMPONENTS + REDUX.
             </p>

@@ -7,6 +7,7 @@ import SobreMi from "./components/SobreMi/SobreMi";
 import MisHerramientas from "./components/MisHerramientas/MisHerramientas";
 import Proyectos from "./components/Proyectos/Proyectos";
 import { Contact } from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const show = useSelector((state) => state.header.show);
@@ -20,6 +21,7 @@ function App() {
       <MisHerramientas />
       <Proyectos />
       <Contact />
+      <Footer />
     </>
   );
 }
